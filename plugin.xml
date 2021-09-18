@@ -92,6 +92,9 @@
 
     <!-- android -->
     <platform name="android">
+        <preference name="ANDROIDX_CORE_VERSION" default="1.6.+"/>
+        <framework src="androidx.core:core:$ANDROIDX_CORE_VERSION" />
+
         <config-file target="AndroidManifest.xml" parent="/manifest/queries">
             <intent>
                 <action android:name="android.intent.action.SENDTO" />
