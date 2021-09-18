@@ -320,6 +320,8 @@ class Impl {
         intent.addFlags(FLAG_ACTIVITY_NEW_TASK | FLAG_ACTIVITY_CLEAR_TASK);
         intent.addFlags(FLAG_ACTIVITY_PREVIOUS_IS_TOP);
 
+        intent.setData(Uri.parse("mailto:"));
+
         return intent;
     }
 
