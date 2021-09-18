@@ -1,3 +1,6 @@
+**Forked to fix Android 11 problems – No future support!**
+
+
 # Cordova Email Plugin <br> [![npm version](https://badge.fury.io/js/cordova-plugin-email-composer.svg)](http://badge.fury.io/js/cordova-plugin-email-composer) [![Code Climate](https://codeclimate.com/github/katzer/cordova-plugin-email-composer/badges/gpa.svg)](https://codeclimate.com/github/katzer/cordova-plugin-email-composer) [![PayPayl donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3HKQCD9UA35A "Donate once-off to this project using Paypal")
 
 <img width="260px" align="right" hspace="10" vspace="5" src="https://github.com/katzer/cordova-plugin-email-composer/blob/example/images/ios_iphone5s_spacegrey_portrait.png">
@@ -30,7 +33,7 @@ Or install a specific version:
 
 Or install the latest master version:
 
-    $ cordova plugin add https://github.com/katzer/cordova-plugin-email-composer.git
+    $ cordova plugin add https://github.com/11com7/cordova-plugin-email-composer.git
 
 Or install from local source:
 
