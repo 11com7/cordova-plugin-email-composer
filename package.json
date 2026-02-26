@@ -44,6 +44,12 @@
       "version": ">=4.3.0"
     }
   ],
+  "files": [
+    "plugin.xml",
+    "www/",
+    "src/",
+    "LICENSE"
+  ],
   "author": "Sebastián Katzer",
   "license": "Apache-2.0",
   "bugs": {
