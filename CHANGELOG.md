@@ -1,6 +1,24 @@
 
 ## ChangeLog
 
+#### Version 0.42.0 (26.02.2026)
+- Rebased fork onto upstream v0.10.1
+- [enhancement]: Use explicit `androidx.core:core` dependency instead of `AndroidXEnabled` preference only
+- [bugfix]: Simplified `getDraft()` to fix Android 11+ email intent issues (#361)
+- [enhancement]: Added `files` field to package.json to limit published files
+
+#### Version 0.10.1 (upstream)
+- [bugfix]: Calling `.open()` crashes the app on Android
+- [bugfix]: iOS `open()` always returned true even when app is not installed
+- [enhancement]: Added result callback for MFMailComposeViewController (iOS)
+- [enhancement]: Added `googlegmail` and `ms-outlook` to iOS `LSApplicationQueriesSchemes` (#363)
+
+#### Version 0.10.0 (upstream)
+- [enhancement]: Android 11 support — added `<queries>` declarations in AndroidManifest (#368)
+- [enhancement]: Added `AndroidXEnabled` preference for config.xml
+- [enhancement]: Updated FileProvider import to use androidx (#353)
+- [bugfix]: Fixed Android 11 email intent params and targets
+
 #### Version 0.9.2 (24.01.2019)
 - Fix package android.support.v4.content does not exist
 
